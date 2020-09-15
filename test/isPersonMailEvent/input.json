@@ -1,0 +1,61 @@
+{
+  "test_1" :
+  {
+    "header": {
+      "service": "mso365-exchange",
+      "orgId": "bd7ff163-89b0-484c-9509-a517a4a7079f",
+      "application": "exchange",
+      "internalEventId": "1fe6468e-1464-4249-8469-efb567abda84",
+      "serviceScope": "04c4d21f-a50e-4ff6-9c69-4bccda196692",
+      "eventTime": "2019-10-25T11:13:24",
+      "eventType": "email"
+    },
+    "siblings": 8,
+    "object": {
+      "externalIdentifier": "eyJlbWFpbEFkZHJlc3MiOiAidGVzdHVzZXJAc2hpZWxkb3guY29tIn0=",
+      "objectCategory": "Entity",
+      "externalObjectId": "team@gmail.com",
+      "internalObjectId": "34AC274691D0FD8E8F37CEB4D09C9663",
+      "objectType": "machine",
+      "objectName": "Test User",
+      "relation": "Exposed_by",
+      "isExternal": false,
+      "unmanagedData": {
+        "emailAddress_name": "Test User",
+        "skillData": {
+          "isPersonalAddress": false
+        }
+      }
+    }
+  },
+
+  "test_2" : 
+  {
+    "header": {
+      "service": "mso365-exchange",
+      "orgId": "bd7ff163-89b0-484c-9509-a517a4a7079f",
+      "application": "exchange",
+      "internalEventId": "1fe6468e-1464-4249-8469-efb567abda84",
+      "serviceScope": "04c4d21f-a50e-4ff6-9c69-4bccda196692",
+      "eventTime": "2019-10-25T11:13:24",
+      "eventType": "email"
+    },
+    "siblings": 8,
+    "object": {
+      "externalIdentifier": "eyJlbWFpbEFkZHJlc3MiOiAidGVzdHVzZXJAc2hpZWxkb3guY29tIn0=",
+      "objectCategory": "Entity",
+      "externalObjectId": "team@gmail.com",
+      "internalObjectId": "34AC274691D0FD8E8F37CEB4D09C9663",
+      "objectType": "person",
+      "objectName": "Test User",
+      "relation": "Exposed_by",
+      "isExternal": false,
+      "unmanagedData": {
+        "emailAddress_name": "Test User",
+        "skillData": {
+          "isPersonalAddress": true
+        }
+      }
+    }
+  }
+}
